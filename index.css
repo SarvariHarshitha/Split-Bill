@@ -1,0 +1,150 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    font-family: "karla";
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav h1{
+    color: black;
+    font-size:xx-large;
+    font-family: "karla";
+    font-weight: 750;
+}
+
+.button-area{
+    padding: 100px auto auto auto;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.area-button{
+    padding: 17px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    color:white;
+}
+
+.area-button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.friend-form{
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+}
+
+input,select{
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.friend-form button{
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto auto 130px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.friend-form button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.hide-form{
+    display: none;
+}
+
+.split-form{
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+}
+
+label{
+    margin-left:40px;
+}
+.split-form button{
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto auto 130px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.split-form button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+#expense-data {
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td {
+    background-color: #fff;
+    color: #333;
+}
+
+div p{
+    color: red;
+    font-size: 24px;
+    margin-left: 40%;
+}
